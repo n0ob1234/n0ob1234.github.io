@@ -2,6 +2,7 @@
 // Libraries
 import { ref } from 'vue'
 
+const checked = ref(false);
 // Menu items
 const items = ref([
 	{
@@ -16,6 +17,12 @@ const items = ref([
 	},
 ])
 
+
+function toggleDarkMode() {
+	document.documentElement.classList.toggle('p-dark');
+}
+
+
 </script>
 
 <template>
@@ -29,6 +36,10 @@ const items = ref([
 			</NuxtLink>
 		</template>
 		<template #end>
+			<PrimeToggleButton v-model="checked" @change="toggleDarkMode"
+			onIcon="pi pi-moon" onLabel="Toggle" 
+			offIcon="pi pi-sun" offLabel="Toggle" 
+			class="w-36" aria-label="Toggle Dark Mode" v-tooltip.bottom="'Toggle Dark Mode'" />
 		</template>
 	</PrimeMenubar>
 </template>
