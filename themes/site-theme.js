@@ -1,4 +1,7 @@
-const MyPreset = definePreset(Aura, {
+import { definePreset } from '@primevue/themes';
+import Aura from '@primevue/themes/aura';
+
+const GoCats = definePreset(Aura, {
     semantic: {
         primary: {
             50: '{purple.50}',

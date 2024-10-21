@@ -7,18 +7,13 @@ const items = ref([
 	{
 		label: 'Home',
 		icon: 'pi pi-home',
-		url: ''
+		route: '/'
 	},
 	{
 		label: 'About',
 		icon: 'pi pi-info',
-		url: ''
+		route: '/about'
 	},
-	{
-		label: 'Contact',
-		icon: 'pi pi-envelope',
-		url: ''
-	}
 ])
 
 </script>
@@ -26,6 +21,12 @@ const items = ref([
 <template>
 	<PrimeMenubar :model="items">
 		<template #start>
+		</template>
+		<template #item="{ item, props, hasSubmenu, root }">
+			<NuxtLink :to="item.route">
+				<span v-if="item.icon" :class="item.icon" />
+				<span>{{ item.label }}</span>
+			</NuxtLink>
 		</template>
 		<template #end>
 		</template>
