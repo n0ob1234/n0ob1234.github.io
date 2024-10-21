@@ -7,17 +7,17 @@ const items = ref([
 	{
 		label: 'Home',
 		icon: 'pi pi-home',
-		url: '/'
+		url: ''
 	},
 	{
 		label: 'About',
 		icon: 'pi pi-info',
-		url: '/about'
+		url: ''
 	},
 	{
 		label: 'Contact',
 		icon: 'pi pi-envelope',
-		url: '/contact'
+		url: ''
 	}
 ])
 
