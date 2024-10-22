@@ -20,7 +20,7 @@
 1. If you are working in the web browser in GitHub Codespaces, skip this section.
 2. If you are on your local machine, you will need to install 
     - [VS Code](https://code.visualstudio.com/) for writing code.
-    - [Git](https://git-scm.com/downloads) so you can work with a Github repository on your own machine. _Note_ if you are on a Mac, I reccommend using the homebrew method of installing git.
+    - [Git](https://git-scm.com/downloads) so you can work with a Github repository on your own machine. _Note_ if you are on a Mac, I recommend using the homebrew method of installing git.
     - [GitHub CLI](https://cli.github.com/) greatly simplifies the cloning process and helps get you authenticated to GitHub. It is a quick install. Once installed you will need to run `gh auth login` as indicated in [https://cli.github.com/manual/](https://cli.github.com/manual/)
     - Install Node.js so we can make use of npm: [https://nodejs.org/en/download/prebuilt-installer](https://nodejs.org/en/download/prebuilt-installer)
 
