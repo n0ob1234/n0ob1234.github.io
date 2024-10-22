@@ -45,3 +45,17 @@
 1. Any changes (make sure you save your files!) made in your repository need to be *committed* and *pushed* so that it uploads the new changes to Github. Once pushed, your website should auto-deploy as described in the earlier section when setting up the repo.
 2. To commit and push changes, click the "Source Control" tab in VS Code (menu on the left hand side of the screen).
 3. Type a descriptive message about the changes made.
+4. Click "Commit" then "Sync". You can also click "Commit and push" from the dropdown button next to the commit button to shortcut this.
+    - It may ask you to "stage" changes. If so, typically you will want to stage all changed files to commit.
+5. Your changes should now be uploaded to the GitHub repository. You can verify this by looking to see if you commit shows on your github page (more details on where the commits link is can be found here [https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits))
+6. As noted before, the GitHub Action that auto-deploys this website may take a few minutes to finish running before your changes are visible on your live page/url.
+7. **NOTE** Be sure to commit and push changes periodically so you don't lose any changes!
+
+## Helpful resources.
+
+There are many additional resources on the web for learning more about HTML, CSS, and Vue. This project is only intended to get your feet wet into developing dynamic web apps and auto-deploying them to GitHub Pages. Note though that the server-side features of Vue, Nuxt, and PrimeVue are not really applicable to this project as we are deploying this to GitHub Pages, which does not allow server-side logic etc. to run. But none the less, below are links to the primary technologies used in this demo. You might find more tutorials online in addition to many videos.
+
+1. [https://primevue.org/introduction/](https://primevue.org/introduction/) - This page contains a lot of helpful examples and documentation on PrimeVue. You might find the "Components" section particularly helpful. Note that this webapp is configured to use the "Prime" prefix in front of any Primevue Component...so `Button` would be `PrimeButton` in this project.
+2. [https://nuxt.com/](https://nuxt.com/) - This app utilizes Nuxt.js for simplifying some setup and management of the site...particularly links. But you can use other Nuxt features as well. 
+3. [https://tailwindcss.com/](https://tailwindcss.com/) - This is a CSS framework used in this project for applying styles.
+
