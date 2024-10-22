@@ -4,6 +4,7 @@
 
 1. To create a new repository, go to [github.com](github.com). If you do not have one, create a new account. 
 2. If you want to duplicate this repository completely, click *fork*. Be sure to set the owner to yourself and name the repo as described below in step 3.1
+    - **Note** - If you fork this repository (or copy it in any way other than manually) you will need to go to the "Actions" tab on your repository after it is created and press the button there to enable the GitHub Actions included.
 3. If you want to manually copy content, then go ahead and click the new button (or the + button) in order to create a repository manually. 
     1. You need to name it **"\<user>.github.io"** where `<user>` is your GitHub username. For example, mine is named “weeser.github.io”. 
     2. For settings, leave the repository as "Public" and also check the "Add a README File" box. Then you can click the "Create repository" button at the bottom.
