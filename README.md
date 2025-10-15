@@ -9,7 +9,7 @@
     1. You need to name it **"\<user>.github.io"** where `<user>` is your GitHub username. For example, mine is named “weeser.github.io”. 
     2. For settings, leave the repository as "Public" and also check the "Add a README File" box. Then you can click the "Create repository" button at the bottom.
 4. Configure **GitHub Pages**
-    1. Open your repo’s settings. The link to these can be found under your repository name. If you do not see the "Settings" tab, click the … to reveal the drop down menu. 
+    1. Open your repo’sssdfsd settings. The link to these can be found under your repository name. If you do not see the "Settings" tab, click the … to reveal the drop down menu. 
     2. On the settings page, there should be a menu on the left. Under the "Code and automation" section, click on "Pages"
     3. Now, under "Build and deployment", under "Source" select the "GitHub Action" option.
         - The Github action that auto-compiles your Vue web app is already setup and can be found in the repo's ".github" folder
