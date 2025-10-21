@@ -51,9 +51,9 @@ import TicTacToe from '@/components/TicTacToe.vue';
 			scelerisque. Nulla fsi. Pellentesque fringilla molestie orci ac dictum. <i>Praesent</i> in lectus vel
 			libero sollicitudin interdum.</p>
 		<br></br>
-		<a href="/primevue-nuxt-example/resume" style="color: blue"><u>Click here to go to resume.</u></a>
+		<router-link to="/resume" style="color: blue"><u>Click here to go to resume.</u></Router-link>
 		<br></br>
-		<a href="/primevue-nuxt-example/" style="color: blue"><u>Click here to go to index.</u></a>
+		<Router-link to="/" style="color: blue"><u>Click here to go to index.</u></Router-link>
 		<Divider />
 		<TicTacToe/>
   
