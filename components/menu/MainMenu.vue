@@ -8,17 +8,17 @@ const items = ref([
 	{
 		label: 'index',
 		icon: 'pi pi-info',
-		route: '/'
+		route: '#/'
 	},
 	{
 		label: 'about',
 		icon: 'pi pi-info',
-		route: '/about'
+		route: '#/about'
 	},
 	{
 		label: 'Resume',
 		icon: 'pi pi-info',
-		route: '/resume'
+		route: '#/resume'
 	},
 ])
 
