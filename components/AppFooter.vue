@@ -1,5 +1,5 @@
 <template>
 	<footer>
-		<p>footer stuffs</p>
+		<p><b>Chase D'Souza's CIS 115 HTML Project</b></p>
 	</footer>
 </template>

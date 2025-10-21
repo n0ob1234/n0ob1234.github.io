@@ -10,8 +10,9 @@ import TicTacToe from '@/components/TicTacToe.vue';
 </script>
 <template>
 	<!-- <link rel="stylesheet" type="text/css" href="assets/css/fancy.css"> -->
-	<div>
-		<h1 style="font-size: 50px;">The First 4 paragraphs</h1>
+	 <head><title>About</title></head>
+	<div style="background-color:lightsalmon;">
+		<h1 style="font-size: 30px;">The First 4 paragraphs</h1>
 		<br></br>
 		<br></br>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula ut nisl a tincidunt. Vestibulum
@@ -50,15 +51,15 @@ import TicTacToe from '@/components/TicTacToe.vue';
 			scelerisque. Nulla facilisi. Pellentesque fringilla molestie orci ac dictum. <i>Praesent</i> in lectus vel
 			libero sollicitudin interdum.</p>
 		<br></br>
-		<a href="/" style="color: blue"><u>Click here to go to resume.</u></a>
+		<a href="/resume" style="color: blue"><u>Click here to go to resume.</u></a>
+		<br></br>
+		<a href="/" style="color: blue"><u>Click here to go to index.</u></a>
 		<Divider />
 		<TicTacToe/>
   
 
 	</div>
 
-	<PrimePanel header="About Me" class="my-6">
-		<PrimeButton label="Check" icon="pi pi-check" />
-	</PrimePanel>
+	
 
 </template>

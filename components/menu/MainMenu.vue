@@ -6,14 +6,19 @@ const checked = ref(false);
 // Menu items
 const items = ref([
 	{
-		label: 'Home',
-		icon: 'pi pi-home',
+		label: 'index',
+		icon: 'pi pi-info',
 		route: '/'
 	},
 	{
-		label: 'About',
+		label: 'about',
 		icon: 'pi pi-info',
 		route: '/about'
+	},
+	{
+		label: 'Resume',
+		icon: 'pi pi-info',
+		route: '/resume'
 	},
 ])
 
