@@ -8,17 +8,17 @@ const items = ref([
 	{
 		label: 'index',
 		icon: 'pi pi-info',
-		route: '/primevue-nuxt-example/'
+		route: '/'
 	},
 	{
 		label: 'about',
 		icon: 'pi pi-info',
-		route: '/primevue-nuxt-example/about'
+		route: '/about'
 	},
 	{
 		label: 'Resume',
 		icon: 'pi pi-info',
-		route: '/primevue-nuxt-example/resume'
+		route: '/resume'
 	},
 ])
 
