@@ -3,7 +3,7 @@
 import { ref } from 'vue'
 
 const checked = ref(false);
-// Menu items
+// Menu item
 const items = ref([
 	{
 		label: 'index',

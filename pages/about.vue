@@ -48,7 +48,7 @@ import TicTacToe from '@/components/TicTacToe.vue';
 			<b>condimentum</b> sed elit sit amet eleifend. Duis sed orci vitae
 			neque sagittis bibendum ac sit amet neque. Praesent non orci mi. Nam congue maximus nibh vel malesuada.
 			Aenean venenatis tortor sit amet nunc luctus
-			scelerisque. Nulla facilisi. Pellentesque fringilla molestie orci ac dictum. <i>Praesent</i> in lectus vel
+			scelerisque. Nulla fsi. Pellentesque fringilla molestie orci ac dictum. <i>Praesent</i> in lectus vel
 			libero sollicitudin interdum.</p>
 		<br></br>
 		<a href="primevue-nuxt-example/resume" style="color: blue"><u>Click here to go to resume.</u></a>
