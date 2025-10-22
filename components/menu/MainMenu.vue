@@ -1,52 +1,99 @@
 <script setup>
+
 // Libraries
+
 import { ref } from 'vue'
 
+ 
+
 const checked = ref(false);
+
 // Menu item
+
 const items = ref([
-	{
-		label: 'index',
-		icon: 'pi pi-info',
-		route: '/#/'
-	},
-	{
-		label: 'about',
-		icon: 'pi pi-info',
-		route: '/#/about'
-	},
-	{
-		label: 'Resume',
-		icon: 'pi pi-info',
-		route: '/#/resume'
-	},
+
+    {
+
+        label: 'index',
+
+        icon: 'pi pi-info',
+
+        route: '/'
+
+    },
+
+    {
+
+        label: 'about',
+
+        icon: 'pi pi-info',
+
+        route: '/about'
+
+    },
+
+    {
+
+        label: 'Resume',
+
+        icon: 'pi pi-info',
+
+        route: '/resume'
+
+    },
+
 ])
 
+ 
 
 function toggleDarkMode() {
-	document.documentElement.classList.toggle('p-dark');
+
+    document.documentElement.classList.toggle('p-dark');
+
 }
 
+ 
 
 </script>
 
+ 
+
 <template>
-	<PrimeMenubar :model="items">
-		<template #start>
-		</template>
-		<template #item="{ item, props, hasSubmenu, root }">
-			<NuxtLink :to="item.route">
-				<span v-if="item.icon" :class="item.icon" />
-				<span>{{ item.label }}</span>
-			</NuxtLink>
-		</template>
-		<template #end>
-			<PrimeToggleButton v-model="checked" @change="toggleDarkMode"
-			onIcon="pi pi-moon" onLabel="Toggle" 
-			offIcon="pi pi-sun" offLabel="Toggle" 
-			class="w-36" aria-label="Toggle Dark Mode" v-tooltip.bottom="'Toggle Dark Mode'" />
-		</template>
-	</PrimeMenubar>
+
+    <PrimeMenubar :model="items">
+
+        <template #start>
+
+        </template>
+
+        <template #item="{ item, props, hasSubmenu, root }">
+
+            <NuxtLink :to="item.route">
+
+                <span v-if="item.icon" :class="item.icon" />
+
+                <span>{{ item.label }}</span>
+
+            </NuxtLink>
+
+        </template>
+
+        <template #end>
+
+            <PrimeToggleButton v-model="checked" @change="toggleDarkMode"
+
+            onIcon="pi pi-moon" onLabel="Toggle"
+
+            offIcon="pi pi-sun" offLabel="Toggle"
+
+            class="w-36" aria-label="Toggle Dark Mode" v-tooltip.bottom="'Toggle Dark Mode'" />
+
+        </template>
+
+    </PrimeMenubar>
+
 </template>
+
+ 
 
 <style scoped></style>
